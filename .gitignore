@@ -1,0 +1,14 @@
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Office lock files
+~$*.docx
+
+# Temporary files from the hash demo
+*.tmp

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 990" width="920" height="990" font-family="Inter, Helvetica, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52606d"/></marker></defs>
+<rect width="920" height="990" fill="#ffffff"/>
+<text x="40" y="44" font-size="20" font-weight="700" fill="#1f2933">Evidence-preservation workflow: suspected compromised laptop</text>
+<rect x="60" y="80" width="500" height="64" rx="10" fill="#f5f7fa" stroke="#9aa5b1" stroke-width="1.5"/>
+<text x="76" y="105" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">1 · Secure the scene</text>
+<text x="76" y="125" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Keep people away; record the user&#x27;s reported actions</text>
+<rect x="60" y="170" width="500" height="64" rx="10" fill="#f5f7fa" stroke="#9aa5b1" stroke-width="1.5"/>
+<text x="76" y="195" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">2 · Observe and record before touching</text>
+<text x="76" y="215" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Photos: scene, screen, ports, labels, device clock</text>
+<line x1="310.0" y1="144" x2="310.0" y2="168" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="310.0" y1="234" x2="310.0" y2="258" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="60" y="260" width="500" height="64" rx="10" fill="#fff7e6" stroke="#d48806" stroke-width="1.8"/>
+<text x="76" y="285" font-size="14.5" font-weight="700" fill="#874d00" text-anchor="start">3 · Decide the power state</text>
+<text x="76" y="305" font-size="12.5" font-weight="400" fill="#874d00" text-anchor="start">Log the decision and the reason</text>
+<rect x="60.0" y="372" width="160" height="112" rx="10" fill="#ecfdf3" stroke="#3f9142" stroke-width="1.5"/>
+<text x="76.0" y="397" font-size="14.5" font-weight="700" fill="#1e5b26" text-anchor="start">OFF</text>
+<text x="76.0" y="417" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Leave it off.</text>
+<text x="76.0" y="434" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Do not switch it on.</text>
+<text x="76.0" y="451" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Bag and label it.</text>
+<line x1="310.0" y1="324" x2="140.0" y2="370" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="140.0" y1="484" x2="310.0" y2="518" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="230.0" y="372" width="160" height="112" rx="10" fill="#eef4ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="246.0" y="397" font-size="14.5" font-weight="700" fill="#1e3a8a" text-anchor="start">ON or ASLEEP</text>
+<text x="246.0" y="417" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Keep it on charger.</text>
+<text x="246.0" y="434" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">No shutdown, logout</text>
+<text x="246.0" y="451" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">or closing the lid.</text>
+<text x="246.0" y="468" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Call a specialist.</text>
+<line x1="310.0" y1="324" x2="310.0" y2="370" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="310.0" y1="484" x2="310.0" y2="518" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="400.0" y="372" width="160" height="112" rx="10" fill="#fef1f1" stroke="#c2410c" stroke-width="1.5"/>
+<text x="416.0" y="397" font-size="14.5" font-weight="700" fill="#7c2d12" text-anchor="start">ACTIVE DAMAGE</text>
+<text x="416.0" y="417" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Files being wiped or</text>
+<text x="416.0" y="434" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">encrypted: isolate it</text>
+<text x="416.0" y="451" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">now. If it continues,</text>
+<text x="416.0" y="468" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">cut power; log why.</text>
+<line x1="310.0" y1="324" x2="480.0" y2="370" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="480.0" y1="484" x2="310.0" y2="518" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="60" y="520" width="500" height="64" rx="10" fill="#f5f7fa" stroke="#9aa5b1" stroke-width="1.5"/>
+<text x="76" y="545" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">4 · Isolate from the network (if powered)</text>
+<text x="76" y="565" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Network-side first; else unplug Ethernet or use airplane key</text>
+<rect x="60" y="610" width="500" height="64" rx="10" fill="#f5f7fa" stroke="#9aa5b1" stroke-width="1.5"/>
+<text x="76" y="635" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">6 · Package and protect the original</text>
+<text x="76" y="655" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Label E1, E2…; anti-static bag; tamper seal; locked store</text>
+<line x1="310.0" y1="584" x2="310.0" y2="608" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="60" y="700" width="500" height="64" rx="10" fill="#f5f7fa" stroke="#9aa5b1" stroke-width="1.5"/>
+<text x="76" y="725" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">7 · Hash where appropriate</text>
+<text x="76" y="745" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">SHA-256 for images and files you create, never on the laptop</text>
+<line x1="310.0" y1="674" x2="310.0" y2="698" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="60" y="790" width="500" height="64" rx="10" fill="#f5f7fa" stroke="#9aa5b1" stroke-width="1.5"/>
+<text x="76" y="815" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">8 · Maintain chain of custody</text>
+<text x="76" y="835" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Every hand-off: time, from, to, purpose, seal, hash check</text>
+<line x1="310.0" y1="764" x2="310.0" y2="788" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="60" y="880" width="500" height="64" rx="10" fill="#f5f7fa" stroke="#9aa5b1" stroke-width="1.5"/>
+<text x="76" y="905" font-size="14.5" font-weight="700" fill="#1f2933" text-anchor="start">9 · Hand over and report</text>
+<text x="76" y="925" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Summary of actions; escalation (e.g. CERT-In 6-hour rule)</text>
+<line x1="310.0" y1="854" x2="310.0" y2="878" stroke="#52606d" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="620" y="80" width="260" height="864" rx="12" fill="#f3f0ff" stroke="#6941c6" stroke-width="1.8"/>
+<text x="638" y="108" font-size="14.5" font-weight="700" fill="#3e1c96" text-anchor="start">5 · Document time and actions</text>
+<text x="638" y="128" font-size="12.5" font-weight="400" fill="#53389e" text-anchor="start">Continuous, from arrival to hand-over</text>
+<circle cx="644" cy="164" r="3" fill="#6941c6"/>
+<text x="656" y="168" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Date and time with time zone</text>
+<circle cx="644" cy="190" r="3" fill="#6941c6"/>
+<text x="656" y="194" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Who did it</text>
+<circle cx="644" cy="216" r="3" fill="#6941c6"/>
+<text x="656" y="220" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">What was done</text>
+<circle cx="644" cy="242" r="3" fill="#6941c6"/>
+<text x="656" y="246" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Why it was done</text>
+<circle cx="644" cy="268" r="3" fill="#6941c6"/>
+<text x="656" y="272" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Result or observation</text>
+<circle cx="644" cy="294" r="3" fill="#6941c6"/>
+<text x="656" y="298" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Photo reference numbers</text>
+<circle cx="644" cy="320" r="3" fill="#6941c6"/>
+<text x="656" y="324" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Device clock offset</text>
+<circle cx="644" cy="346" r="3" fill="#6941c6"/>
+<text x="656" y="350" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Corrections: single strike,</text>
+<text x="656" y="376" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">initials and time; never erase</text>
+<circle cx="644" cy="398" r="3" fill="#6941c6"/>
+<text x="656" y="402" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Sign and date each page</text>
+<text x="638" y="470" font-size="14.5" font-weight="700" fill="#3e1c96" text-anchor="start">Ground rules</text>
+<line x1="638" y1="448" x2="862" y2="448" stroke="#b9a7e8" stroke-width="1"/>
+<text x="644" y="502" font-size="13" font-weight="700" fill="#6941c6" text-anchor="start">1.</text>
+<text x="664" y="502" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Don&#x27;t make it worse</text>
+<text x="644" y="528" font-size="13" font-weight="700" fill="#6941c6" text-anchor="start">2.</text>
+<text x="664" y="528" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Record before you touch</text>
+<text x="644" y="554" font-size="13" font-weight="700" fill="#6941c6" text-anchor="start">3.</text>
+<text x="664" y="554" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Touch as little as possible</text>
+<text x="644" y="580" font-size="13" font-weight="700" fill="#6941c6" text-anchor="start">4.</text>
+<text x="664" y="580" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Protect the original</text>
+<text x="644" y="606" font-size="13" font-weight="700" fill="#6941c6" text-anchor="start">5.</text>
+<text x="664" y="606" font-size="13" font-weight="400" fill="#1f2933" text-anchor="start">Account for every hand-off</text>
+<text x="638" y="660" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Never run tools, scans or</text>
+<text x="638" y="678" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">hashing on the suspect laptop.</text>
+<text x="638" y="704" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">Never collect data from a</text>
+<text x="638" y="722" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">device you are not authorised</text>
+<text x="638" y="740" font-size="12.5" font-weight="400" fill="#52606d" text-anchor="start">to handle.</text>
+<line x1="560" y1="112" x2="620" y2="112" stroke="#b9a7e8" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560" y1="202" x2="620" y2="202" stroke="#b9a7e8" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560" y1="292" x2="620" y2="292" stroke="#b9a7e8" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560" y1="552" x2="620" y2="552" stroke="#b9a7e8" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560" y1="642" x2="620" y2="642" stroke="#b9a7e8" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560" y1="732" x2="620" y2="732" stroke="#b9a7e8" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560" y1="822" x2="620" y2="822" stroke="#b9a7e8" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560" y1="912" x2="620" y2="912" stroke="#b9a7e8" stroke-width="1.2" stroke-dasharray="4 4"/>
+</svg>
