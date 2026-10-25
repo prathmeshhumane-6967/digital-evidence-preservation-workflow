@@ -7,7 +7,7 @@
 | **Intern** | Prathmesh Humane (Intern ID 2414) |
 | **Programme** | RedKross Research Foundation Internship, October 2026 batch |
 | **Task** | Digital Forensics Basics |
-| **Explanatory video** | **[ADD YOUR VIDEO LINK HERE]** |
+| **Explanatory video** | **[https://drive.google.com/file/d/1tcE5l0XccEm0hbxnk0bMXLD45pmFv2d7/view?usp=share_link]** |
 
 ---
 
@@ -29,7 +29,7 @@ This repository answers it at **first-responder level**: what the first person o
 | Technical report | [`report/technical-report.md`](report/technical-report.md) · [PDF](report/technical-report.pdf) |
 | Hashing demonstration | [`lab/hash-demo/`](lab/hash-demo/) |
 | Test evidence | [`results/`](results/) |
-| Video script | [`video/video-script.md`](video/video-script.md) |
+
 
 ## The workflow at a glance
 
@@ -66,9 +66,7 @@ digital-evidence-preservation-workflow/
 │   ├── hash-demo-run-<timestamp>/             # demo output (logs, hashes, summary)
 │   └── screenshots/
 ├── assets/
-│   └── workflow-diagram.svg / .png
-└── video/
-    └── video-script.md
+    └── workflow-diagram.svg / .png
 ```
 
 ## How to use
