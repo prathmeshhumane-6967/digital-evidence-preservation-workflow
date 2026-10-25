@@ -1,0 +1,4 @@
+Responder notes (FICTIONAL)
+10:38 IST Arrived. Laptop ON, unlocked. User asked to step away.
+10:41 IST Laptop clock 10:38, reference 10:41: laptop 3 min slow.
+10:45 IST Network isolated at switch port by incident lead.

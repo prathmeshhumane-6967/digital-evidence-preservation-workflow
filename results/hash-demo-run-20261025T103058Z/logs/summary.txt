@@ -1,0 +1,9 @@
+HASH DEMO SUMMARY: run 20261025T103058Z
+Examiner: Prathmesh Humane | OS: Darwin 27.0.0 | Tool: sha256sum | Finished (UTC): 2026-10-25T10:32:03Z
+
+Test What was tested                        Expected                   Observed
+T1   Reproducibility vs reference hashes    MATCH                      MATCH
+T2   Read-only original blocks writes       PROTECTED                  PROTECTED (write blocked)
+T3   Working copy verifies against original VERIFIED                   VERIFIED (all 3 files match)
+T4   Timestamp-only change                  HASH UNCHANGED             HASH UNCHANGED (timestamp changed, content did not)
+T5   One-character content change           DETECTED                   DETECTED (verification FAILED for the changed file)

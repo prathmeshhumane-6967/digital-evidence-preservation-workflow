@@ -1,0 +1,38 @@
+
+=====================================================================
+ STEP 0: Record the environment
+=====================================================================
+Run ID              : 20261025T113047Z
+Examiner (log name) : Prathmesh Humane
+Started (UTC)       : 2026-10-25T11:30:47Z
+Started (local)     : 2026-10-25 17:00:47 IST (UTC+0530)
+Operating system    : Darwin 27.0.0
+Bash version        : 3.2.57(1)-release
+Hash tool           : sha256sum
+Output folder       : results/hash-demo-run-20261025T113047Z
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 1: Create FICTIONAL evidence files in original/
+=====================================================================
+total 24
+-rw-r--r--@ 1 staff  349 Oct 25 17:00 email_header_sample.txt
+-rw-r--r--@ 1 staff  359 Oct 25 17:00 firewall_alert_sample.log
+-rw-r--r--@ 1 staff  219 Oct 25 17:00 responder_notes.txt
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 2: Hash the originals (SHA-256) and check reproducibility
+=====================================================================
+0ed594d479bbd324e67db56e71ec01a31914523820d2dcf00eb7dde46268d9ae  email_header_sample.txt
+31a45b0a4a632f156dc366069c4c68e4905cf19d227c357b7e9b10051fc34729  firewall_alert_sample.log
+a7fd7d1a1363f1ff5225d47c8985a35cf85792b25b7a0155582ebe82284fe996  responder_notes.txt
+
+Comparing with the reference hashes in expected-hashes.sha256 ...
+email_header_sample.txt: OK
+firewall_alert_sample.log: OK
+responder_notes.txt: OK
+
+RESULT: Your hashes match the reference values. The same content gives the same hash on any machine.
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---

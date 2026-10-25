@@ -1,0 +1,7 @@
+Return-Path: <notices@scholarship-portal.example>
+From: "Scholarship Office" <notices@scholarship-portal.example>
+To: student@college.example
+Subject: Action required: Scholarship_Form.docm
+Date: Wed, 14 Oct 2026 10:12:05 +0530
+Received: from mail.scholarship-portal.example (203.0.113.45)
+X-Note: FICTIONAL SAMPLE FOR TRAINING. NOT A REAL MESSAGE.

@@ -1,0 +1,23 @@
+
+=====================================================================
+ STEP 0: Record the environment
+=====================================================================
+Run ID              : 20261025T112505Z
+Examiner (log name) : Prathmesh Humane
+Started (UTC)       : 2026-10-25T11:25:05Z
+Started (local)     : 2026-10-25 16:55:05 IST (UTC+0530)
+Operating system    : Darwin 27.0.0
+Bash version        : 3.2.57(1)-release
+Hash tool           : sha256sum
+Output folder       : results/hash-demo-run-20261025T112505Z
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 1: Create FICTIONAL evidence files in original/
+=====================================================================
+total 24
+-rw-r--r--@ 1 staff  349 Oct 25 16:55 email_header_sample.txt
+-rw-r--r--@ 1 staff  359 Oct 25 16:55 firewall_alert_sample.log
+-rw-r--r--@ 1 staff  219 Oct 25 16:55 responder_notes.txt
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---

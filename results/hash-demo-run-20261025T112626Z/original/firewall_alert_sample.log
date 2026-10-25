@@ -1,0 +1,4 @@
+2026-10-14T04:52:11Z ALERT outbound src=10.20.4.37 dst=203.0.113.45 dport=443 rule=blocklist
+2026-10-14T04:53:11Z ALERT outbound src=10.20.4.37 dst=203.0.113.45 dport=443 rule=blocklist
+2026-10-14T04:54:12Z ALERT outbound src=10.20.4.37 dst=203.0.113.45 dport=443 rule=blocklist
+# FICTIONAL SAMPLE FOR TRAINING. Addresses are from RFC 1918 / RFC 5737 ranges.

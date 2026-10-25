@@ -1,0 +1,113 @@
+
+=====================================================================
+ STEP 0: Record the environment
+=====================================================================
+Run ID              : 20261025T112626Z
+Examiner (log name) : Prathmesh Humane
+Started (UTC)       : 2026-10-25T11:26:26Z
+Started (local)     : 2026-10-25 16:56:26 IST (UTC+0530)
+Operating system    : Darwin 27.0.0
+Bash version        : 3.2.57(1)-release
+Hash tool           : sha256sum
+Output folder       : results/hash-demo-run-20261025T112626Z
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 1: Create FICTIONAL evidence files in original/
+=====================================================================
+total 24
+-rw-r--r--@ 1 staff  349 Oct 25 16:56 email_header_sample.txt
+-rw-r--r--@ 1 staff  359 Oct 25 16:56 firewall_alert_sample.log
+-rw-r--r--@ 1 staff  219 Oct 25 16:56 responder_notes.txt
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 2: Hash the originals (SHA-256) and check reproducibility
+=====================================================================
+0ed594d479bbd324e67db56e71ec01a31914523820d2dcf00eb7dde46268d9ae  email_header_sample.txt
+31a45b0a4a632f156dc366069c4c68e4905cf19d227c357b7e9b10051fc34729  firewall_alert_sample.log
+a7fd7d1a1363f1ff5225d47c8985a35cf85792b25b7a0155582ebe82284fe996  responder_notes.txt
+
+Comparing with the reference hashes in expected-hashes.sha256 ...
+email_header_sample.txt: OK
+firewall_alert_sample.log: OK
+responder_notes.txt: OK
+
+RESULT: Your hashes match the reference values. The same content gives the same hash on any machine.
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 3: Protect the originals (make them read-only)
+=====================================================================
+total 24
+-r--r--r--@ 1 staff  349 Oct 25 16:56 email_header_sample.txt
+-r--r--r--@ 1 staff  359 Oct 25 16:56 firewall_alert_sample.log
+-r--r--r--@ 1 staff  219 Oct 25 16:56 responder_notes.txt
+
+Trying to append text to an original file (this SHOULD fail) ...
+RESULT: Permission denied. The original is protected from accidental change.
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 4: Make a working copy and verify it against the original manifest
+=====================================================================
+email_header_sample.txt: OK
+firewall_alert_sample.log: OK
+responder_notes.txt: OK
+
+RESULT: The working copy is identical to the original. Analysis can use the copy.
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 5: Change ONLY a timestamp on the working copy, then re-check
+=====================================================================
+Before: -rw-r--r--@ 1 staff  219 Oct 25 16:56 responder_notes.txt
+After : -rw-r--r--@ 1 staff  219 Jan  1  2020 responder_notes.txt
+
+SHA-256 before: a7fd7d1a1363f1ff5225d47c8985a35cf85792b25b7a0155582ebe82284fe996
+SHA-256 after : a7fd7d1a1363f1ff5225d47c8985a35cf85792b25b7a0155582ebe82284fe996
+
+RESULT: Same hash. A file hash covers CONTENT, not file-system timestamps,
+so timestamps must be preserved by imaging and documentation.
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 6: Change ONE character in the working copy, then re-check
+=====================================================================
+Line 1 now reads: 2026-10-14T04:52:11Z ALERT outbound src=10.20.4.37 dst=203.0.113.46 dport=443 rule=blocklist
+
+SHA-256 before: 31a45b0a4a632f156dc366069c4c68e4905cf19d227c357b7e9b10051fc34729
+SHA-256 after : c397c3a8a9f44e54e4fd33d96075404c4dac6efd42f5a86910cefabe11dfcd6f
+
+sha256sum: WARNING: 1 computed checksum did NOT match
+email_header_sample.txt: OK
+firewall_alert_sample.log: FAILED
+responder_notes.txt: OK
+
+RESULT: A one-character change produced a completely different hash and was detected.
+
+--- Take a screenshot now if you need one. Press Enter to continue. ---
+=====================================================================
+ STEP 7: Write the summary and seal the action log
+=====================================================================
+HASH DEMO SUMMARY: run 20261025T112626Z
+Examiner: Prathmesh Humane | OS: Darwin 27.0.0 | Tool: sha256sum | Finished (UTC): 2026-10-25T11:29:58Z
+
+Test What was tested                        Expected                   Observed
+T1   Reproducibility vs reference hashes    MATCH                      MATCH
+T2   Read-only original blocks writes       PROTECTED                  PROTECTED (write blocked)
+T3   Working copy verifies against original VERIFIED                   VERIFIED (all 3 files match)
+T4   Timestamp-only change                  HASH UNCHANGED             HASH UNCHANGED (timestamp changed, content did not)
+T5   One-character content change           DETECTED                   DETECTED (verification FAILED for the changed file)
+
+Action log sealed. SHA-256 of logs/action_log.txt:
+678d649c574f20da6d3b5174eca3307603653dbe57f1eb1692c4b784caf02f90  action_log.txt
+
+Done. All output is in:
+  results/hash-demo-run-20261025T112626Z
+
+To verify the sealed log later (from the repository root):
+  cd "results/hash-demo-run-20261025T112626Z/logs" && sha256sum -c ../hashes/action_log.sha256
+
+To delete this run later (originals are read-only), from the repository root:
+  chmod -R u+w "results/hash-demo-run-20261025T112626Z" && rm -rf "results/hash-demo-run-20261025T112626Z"

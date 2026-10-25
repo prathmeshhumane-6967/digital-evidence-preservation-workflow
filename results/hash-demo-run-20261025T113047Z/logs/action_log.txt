@@ -1,0 +1,4 @@
+2026-10-25T11:30:47Z | 2026-10-25 17:00:47 IST (UTC+0530) | Prathmesh Humane | ACTION: Started hash demo run 20261025T113047Z | REASON: Record environment for reproducibility | RESULT: OS=Darwin tool=sha256sum
+2026-10-25T11:30:48Z | 2026-10-25 17:00:48 IST (UTC+0530) | Prathmesh Humane | ACTION: Created 3 fictional files in original/ | REASON: Provide safe test data | RESULT: email_header_sample.txt, firewall_alert_sample.log, responder_notes.txt
+2026-10-25T11:30:54Z | 2026-10-25 17:00:54 IST (UTC+0530) | Prathmesh Humane | ACTION: Hashed originals into hashes/original_manifest.sha256 | REASON: Create integrity baseline | RESULT: 3 hashes recorded
+2026-10-25T11:30:54Z | 2026-10-25 17:00:54 IST (UTC+0530) | Prathmesh Humane | ACTION: Compared baseline with reference hashes | REASON: Show reproducibility (independent party gets same result) | RESULT: MATCH
